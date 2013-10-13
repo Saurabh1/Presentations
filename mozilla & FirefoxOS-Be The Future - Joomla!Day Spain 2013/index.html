@@ -1,0 +1,573 @@
+<!DOCTYPE HTML>
+<html lang="es-ES" class="fade">
+<!--
+	^ You can control a few things with the <html> element's classes:
+
+	"fade"      - smooth fade between slides
+	"nonumbers" - remove the slide numbering after the progress bar
+-->
+
+<head>
+	<title>Mozilla and Firefox OS - Congreso Hispanoluso de Software Libre</title>
+	<!--
+		^ Don't forget a good title - they show up as bookmarks and in Google
+	-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1274, user-scalable=no">
+	<link rel="stylesheet" href="themes/mozilla/styles/style.css">
+	<style type="text/css">
+		/* Add your own styles here */
+		.talkdescription {
+			font-size: 12px;
+			color: #fff;
+			width: 80%;
+		}
+		.full .talkdescription {
+			display: none;
+		}
+		.slide blockquote.lots {
+			font-size: 30px;
+		}
+		.demourl {
+			bottom: 20px;
+		}
+		.quotesource::before {
+			content: '~';
+		}
+		#reveal {
+			float: right;
+			margin: 20px 0 0 20px;
+			background: #fff;
+			position: relative;
+		}
+		#reveal img {
+			width: 200px;
+			z-index: 5;
+			display: block;
+			opacity: 0.5;
+			-webkit-transition: 2s;
+			-moz-transition: 2s;
+			-o-transition: 2s;
+			transition: 2s;
+		}
+		#reveal:hover img {
+			opacity: 1;
+		}
+	</style>
+</head>
+<body class="list">
+
+	<header class="caption">
+		<h1>Mozilla and Firefox OS</h1>
+		<p class="footer speaker">Fernando Agüero, <a href="http://twitter.com/fjaguero">@fjaguero</a> // Angel R. Molina, <a href="http://twitter.com/fjaguero">@angelulz_</a> // Saurabh Shah, <a href="http://twitter.com/fjaguero">@saurabhshah</a></p>
+		<p class="footer speaker">II Congreso Hispanoluso de Software Libre - 27/09/13 - Albacete, Spain</p>
+	</header>
+
+<!--
+	The following is a slide, it needs a class of "slide" and it doesn't
+	hurt to keep the right semantic elements in there, too.
+	IMPORTANT: each slide needs its own unique ID - this will become its
+	URL and this is how this slide system works!
+-->
+
+<div id="cover" class="slide cover"><div>
+		<section>
+			<header>
+				<h2>Mozilla and Firefox OS</h2>
+			</header>
+
+			 <img src="pictures/the_future.png" alt="Be The Future" class="middle">
+
+			<small class="byline keynote-details">
+			II Congreso Hispanoluso de Software Libre - 27/09/13 - Albacete, Spain
+			</small>
+		</section>
+	</div>
+</div>
+
+<div id="i-am-angel" class="slide">
+	<div>
+		<section>
+			<header>
+				<h2>Who AM I ?</h2>
+			</header>
+			<p>Saurabh Shah from Pune, INDIA</p>
+			<ul class=" longlist">
+				<li >Front-End Developer</li>
+				<li >Mozilla Rep (ReMo)</li>
+				<li >Speaker</li>
+				<li >Mozillian</li>
+				<li >Joomlaholic</li>
+				<li >Love travel & technology</li>
+			</ul>	
+			<footer class="notes">
+				<ul>
+				<li >Front-End Developer</li>
+				<li >Mozilla Rep (ReMo)</li>
+				<li >Speaker</li>
+				<li >Mozillian</li>
+				<li >Joomlaholic</li>
+				<li >Love travel & technology</li>
+			</ul>
+			</footer>
+		</section>
+	</div>
+</div>
+
+<div id="who-am-i" class="slide">
+	<div>
+		<section>
+			<header>
+				<h2>Who am I ?</h2>
+			</header>
+		<figure class="middle">
+			<img src="pictures/testt.jpg" class="middle" alt="Saurabh">
+		</figure>
+
+		<footer class="notes">
+			MozCamp Singapore 2012 Group Picture
+		</footer>
+		</section>
+	</div>
+</div>
+
+
+<div id="what-mozilla" class="slide">
+	<div>
+		<section>
+			<header>
+				<h2>What is Mozilla?</h2>
+			</header>
+		<figure class="middle">
+			<img src="pictures/mozilla.png" alt="" class="middle">
+		</figure>
+
+		<footer class="notes">
+			Info about Mozilla and the mission
+		</footer>
+		</section>
+	</div>
+</div>
+
+
+<div id="the-dark-age" class="slide"><div>
+		<section>
+			<header>
+				<h2>The dark age</h2>
+			</header>
+			<img src="pictures/ie6.png" class="middle" alt="About Internet Explorer 6 info">
+
+		<footer class="notes">
+			Explain that without Mozilla, Internet Explorer would be the dominant browser,
+			that we are a not-for-profit organisation to keep the web open and that without
+			us the web would be a corporate-only environment.
+		</footer>
+
+		</section>
+	</div>
+</div>
+
+<div id="firefox-born" class="slide"><div>
+		<section>
+			<header>
+				<h2>A new hope</h2>
+			</header>
+		<figure class="middle">
+			<img src="pictures/firefox-logo.png" alt="Firefox Logo" class="middle">
+		</figure>
+
+		<footer class="notes">
+			Explain how Firefox was born. On April 3, 2003, the Mozilla Organization announced that they planned to change their focus from the Mozilla Suite to Firefox and Thunderbird. The Firefox project went through many versions before version 1.0 was released on November 9, 2004.
+		</footer>
+		</section>
+	</div>
+</div>
+
+	<div id="the-dark-age-2" class="slide"><div>
+		<section>
+			<header>
+				<h2>What happened</h2>
+			</header>
+			<ul class="inner longlist">
+				<li class="active">On 1998, Netscape saw how Internet Explorer took the browsers market.</li>
+				<li>To encourage competition, on March 31, 1998, Netscape 5.0 was made open source.</li>
+				<li>Many developers began working with this browser code, which led later to the Mozilla Foundation.</li>
+				<li>On November 9, 2004, with Mozilla Firefox 1.0 released, the browser wars began.</li>
+			</ul>
+			<footer class="notes">
+			</footer>
+		</section>
+	</div></div>
+
+
+
+<div id="whatmozilladid2" class="slide"><div>
+		<section>
+			<header>
+				<h2>What Mozilla did&hellip;</h2>
+			</header>
+			<img src="pictures/browserlympics.png" class="middle" alt="Browser Logos">
+
+			<footer class="notes">
+				Firefox (and Opera) also paved the way for other browsers both to be released
+				open source and support web standards. Even IE now does a lot to support and
+				also promote web standards.
+			</footer>
+
+		</section>
+	</div>
+</div>
+
+<div id="community" class="slide"><div>
+		<section>
+			<header>
+				<h2>Community powered </h2>
+			</header>
+		<figure class="middle shadow frame">
+			<img src="pictures/comunidad.jpg" alt="" class="middle">
+		</figure>
+
+	<!-- 	<p class="demourl">
+				La comunidad tiene un papel clave en el lanzamiento
+		</p> -->
+
+		<footer class="notes">
+			The community is a key factor for Mozilla. Things like localization or promoting events
+			are really important for Mozilla.
+		</footer>
+		</section>
+	</div>
+</div>
+
+<div id="morethanfirefox" class="slide"><div>
+		<section>
+			<header>
+				<h2>Ongoing work&hellip;</h2>
+			</header>
+			<img src="pictures/mozillamore.png" class="middle" alt="Mozilla is more than Firefox">
+
+			<footer class="notes">
+				Mozilla is much more than Firefox though. We are a not-for-profit organisation to
+				promote the open web. This means we educate people on how to publish content and
+				we protect people's privacy and identity and choice on the web.
+			</footer>
+
+		</section>
+	</div>
+</div>
+
+
+<div id="a-new-challenge" class="slide cover w"><div>
+		<section>
+			<header>
+				<h2>A new challenge</h2>
+			</header>
+			<img src="pictures/responsive.jpg" class="middle" alt="Responsive Design">
+			<small class="credits"><a href="http://www.flickr.com/photos/indyplanets/5693612984/">Photo by Jason Weaver</a></small>
+
+		<footer class="notes">
+			One very obvious change in the last years was that the web became much more mobile.
+			Instead of desktop machines we use laptops, smart phones and tablets and all of
+			these devices get more powerful by the month. They all come with different resolutions
+			and connectivity issues, though and Mozilla is happy to take on the challenge of
+			moving the open web from immobile machines to on-the-go computing.
+		</footer>
+
+		</section>
+	</div>
+</div>
+
+<div id="fxos-intro" class="slide"><div>
+		<section>
+		<figure class="middle">
+			<img src="pictures/firefox-os-logo.png" alt="Firefox OS" class="middle">
+		</figure>
+		</section>
+	</div>
+</div>
+
+
+<div id="hardware-lockout" class="slide cover w"><div>
+		<section>
+			<header>
+				<h2>Hardware lockout</h2>
+			</header>
+			<img src="pictures/lockout.jpg" class="middle" alt="Very obvious road block">
+			<small class="credits">
+				<a href="http://www.flickr.com/photos/old_sarge/100926333/">Photo by Doug Geisler</a>
+			</small>
+
+		<footer class="notes">
+			The most frustrating part about this is that phone and operating
+			system providers lock out browsers and JavaScript. The fun parts
+			to use in a smartphone are the camera, the sensors and to use it
+			to send messages to your friends and call people. To do this,
+			however you'll need to write native code. Browsers, in general
+			are locked out. This is not fair when you claim at the same
+			time that HTML5 is the platform to bring a great future.
+		</footer>
+
+		</section>
+	</div>
+</div>
+
+<div id="what-is-firefox" class="slide"><div>
+		<section>
+			<header>
+				<h2>WHAT IS FIREFOX OS?</h2>
+			</header>
+			<ul class="inner longlist">
+				<li class="active">Firefox OS is a new mobile operating system developed by Mozilla's Boot to Gecko (B2G) project.
+https://developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS</li>
+				<li>Firefox OS follows the same principles: Its aim is to replace feature phones in emerging markets with HTML5 based phones that match the functionality of non-affordable or even locally available smartphones.</li>
+				<li>The phones are based on the proven Firefox engine (Gecko), fully open and standard-proposed APIs and a Linux core (Gonk) that also powers Android</li>
+				<li>Firefox OS is powered by and runs HTML5 applications. You can easily turn a current mobile-optimised web site into an app and get much better hardware access support with a few lines of JavaScript and a manifest file</li>
+				<li>The idea is to give HTML5 the hardware platform it deserves, not to be allowed to run on platforms that treat it as a thing that runs in browsers and is blocked from accessing the interesting parts of the device</li>
+			</ul>
+			<footer class="notes">
+			</footer>
+		</section>
+	</div></div>
+
+<div id="gaia-gecko" class="slide"><div>
+		<section>
+			<header>
+				<h2>Gecko Gaia</h2>
+			</header>
+			<img src="pictures/geckogaia.png" class="middle" alt="gaia-gecko">
+			
+
+		<footer class="notes">
+			
+		</footer>
+
+		</section>
+	</div>
+</div>
+
+<div id="webapis" class="slide"><div>
+		<section>
+			<header>
+				<h2>Web API work</h2>
+			</header>
+			<img src="pictures/hardware-blowup.png" class="middle" alt="All the hardware in a mobile with info to the corresponding Web API spec and implementation status">
+			<p class="demourl">
+				<a href="http://arewemobileyet.com">http://arewemobileyet.com</a>
+			</p>
+
+		<footer class="notes">
+			At arewemobileyet.com we have a live view of how far down the line
+			we are in defining and implementing open APIs that will give web
+			developers access to this hardware. These are standards that can
+			be used by other browser vendors and are implemented in Firefox.
+			As you can see we are very far down the line, the only thing
+			missing still is USB and NFC connectivity, other than that all
+			that is in your phone can be accessed by JavaScript.
+		</footer>
+
+		</section>
+	</div>
+</div>
+
+<div id="permisosapi" class="slide"><div>
+		<section>
+			<header>
+				<h2>API Security levels</h2>
+			</header>
+			 <ul class="inner">
+				<li class="active"><mark>By default</mark></li>
+				<li>WebGL, full screen, audio</li>
+				<li><mark>Accepted by user</mark></li>
+				<li>Location, camera, memory card access</li>
+				<li><mark>After installation</mark></li>
+				<li>IndexedDB, offline cache, localStorage</li>
+				<li><mark>Accepted by the sotre</mark></li>
+				<li>Privacy API: Contactss</li>
+				<li><mark>Verified</mark></li>
+				<li>high privilege (OEM and system apps): radio, telephone and SMS</li>
+			</ul>
+
+		</section>
+	</div></div>
+
+	<div id="api-1" class="slide"><div>
+		<section>
+			<header>
+				<h2>Certiefied APIs</h2>
+			</header>
+			 <ul class=" left">
+				<li class="active">Vibration API</li>
+				<li>Screen Orientation</li>
+				<li>Geolocation API</li>
+				<li>Mouse Lock API</li>
+				<li>Open WebApps</li>
+				<li>Network Information API</li>
+				<li>Battery Status API</li>
+				<li>Alarm API</li>
+			</ul>
+			 <ul class=" right">
+				<li class="active">Push Notifications API</li>
+				<li>WebFM API / FMRadio</li>
+				<li>WebPayment</li>
+				<li>IndexedDB</li>
+				<li>Ambient light sensor</li>
+				<li>Proximity sensor</li>
+				<li>Notification</li>
+			</ul>	
+
+		</section>
+	</div></div>
+
+	 <div id="demoapi" class="slide"><div>
+		<section>
+			<header>
+				<h2>Just Javascript</h2>
+			</header>
+			 <figure class="middle shadow frame">
+				<img width="720px" src="pictures/sms.png" alt="The next web" class="middle">
+			</figure>
+
+			 <ul class="oneline demourl">
+				<li>SMS API Example</li>
+			</ul>
+		</section>
+	</div></div>
+
+	<div id="payments" class="slide"><div>
+		<section>
+			<header>
+				<h2>WebPayments</h2>
+			</header>
+			 <figure class="middle shadow frame">
+				<img width="820px" src="pictures/webpayments.png" alt="Manifest" class="middle">
+			</figure>
+			 <ul class="oneline demourl">
+				<li>In-app payments</li>
+			</ul>
+		</section>
+	</div></div>
+
+	 <div id="manifest" class="slide"><div>
+		<section>
+			<header>
+				<h2>Manifest.webapp</h2>
+			</header>
+			 <figure class="middle shadow frame">
+				<img width="820px" src="pictures/manifest.png" alt="Manifest" class="middle">
+			</figure>
+
+			 <ul class="oneline demourl">
+				<li>Setting permissions</li>
+			</ul>
+		</section>
+	</div></div>
+
+	<div id="gaia" class="slide"><div>
+		<section>
+			<header>
+				<h2>Gaia: The UI of Firefox OS</h2>
+			</header>
+
+				<img width="720px" src="pictures/gaia-github.png" alt="Gaia" class="middle">
+
+			 <ul class="oneline demourl">
+				<li>HTML, CSS and JavaScript.</li>
+			</ul>
+		</section>
+	</div></div>
+
+ <div id="marketplace" class="slide"><div>
+		<section>
+			<header>
+				<h2>Marketplace</h2>
+			</header>
+				<figure class="middle shadow frame">
+				<img src="pictures/marketplace.jpg" alt="Market" class="middle">
+			</figure>
+			 <ul class="oneline demourl">
+				<li>One official marketplace. You can have your own descentralized market.</li>
+			</ul>
+		</section>
+	</div></div> 
+	<div id="marketplace dev hub" class="slide"><div>
+		<section>
+			<header>
+				<h2>Marketplace Developer Hub</h2>
+			</header>
+				<figure class="middle shadow frame">
+				<img src="pictures/marketplace.jpg" alt="Market" class="middle">
+			</figure>
+			 <ul class="oneline demourl">
+				<li>Firefox Marketplace Developer Hub <a href="https://marketplace.firefox.com/developers/">https://marketplace.firefox.com/developers/</a>
+</li>
+			</ul>
+		</section>
+	</div></div>
+
+	<div id="nosdk" class="slide"><div>
+		<section>
+			<header>
+				<h2>¡NO SDK!</h2>
+			</header>
+			 <figure class="middle shadow frame">
+				<img src="pictures/no-sdk.png" alt="No SDK" class="middle">
+			</figure>
+			 <ul class="oneline demourl">
+				<li>Choose your favorite IDE</li>
+			</ul>
+		</section>
+	</div></div>
+
+
+	<div id="inyourdesktop" class="slide"><div>
+		<section>
+			<header>
+				<h2>Multiplatform</h2>
+			</header>
+
+				<a href="https://marketplace.firefox.com/" target="_blank"><img width="680px" src="pictures/appsmac.png" alt="" class="middle"></a>
+
+			 <ul class="oneline demourl">
+				<li>Install apps everywhere, even on like a native OS app</li>
+			</ul>
+		</section>
+	</div></div>
+
+
+<div id="thewebplatform" class="slide shout"><div>
+	<section>
+		<header>
+			<h2>The web is the platform</h2>
+		</header>
+	</section>
+</div></div>
+
+
+
+	<div id="thanks" class="slide"><div>
+		<section>
+			<header>
+				<h2>Thanks! </h2>
+			</header>
+				<figure class="frame middle swing">
+				<img src="pictures/CuteFirefoxGoodbye.png"
+						 width="395"
+						 alt="that's all firefox">
+				</figure>
+				<small class="byline keynote-details">
+			Saurabh Shah | Twitter : @saurabhshah
+			</small>
+		<footer class="notes">
+		</footer>
+		</section>
+	</div></div>
+
+<div class="progress"><div></div>
+</div>
+	<!--
+		^ don't like a progress bar? just delete this DIV
+	-->
+	<script src="scripts/script.js"></script>
+	<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>
